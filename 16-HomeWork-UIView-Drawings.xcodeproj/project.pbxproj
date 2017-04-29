@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F99EE7EF1EB4C56900C4790A /* HomeWork.m in Sources */ = {isa = PBXBuildFile; fileRef = F99EE7EE1EB4C56900C4790A /* HomeWork.m */; };
 		F9A8008D1EB4802F000849FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A8008C1EB4802F000849FC /* main.m */; };
 		F9A800901EB4802F000849FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A8008F1EB4802F000849FC /* AppDelegate.m */; };
 		F9A800931EB4802F000849FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A800921EB4802F000849FC /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F99EE7ED1EB4C56900C4790A /* HomeWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeWork.h; sourceTree = "<group>"; };
+		F99EE7EE1EB4C56900C4790A /* HomeWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeWork.m; sourceTree = "<group>"; };
 		F9A800881EB4802F000849FC /* 16-HomeWork-UIView-Drawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16-HomeWork-UIView-Drawings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A8008C1EB4802F000849FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9A8008E1EB4802F000849FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				F9A8008F1EB4802F000849FC /* AppDelegate.m */,
 				F9A800911EB4802F000849FC /* ViewController.h */,
 				F9A800921EB4802F000849FC /* ViewController.m */,
+				F99EE7ED1EB4C56900C4790A /* HomeWork.h */,
+				F99EE7EE1EB4C56900C4790A /* HomeWork.m */,
 				F9A800941EB4802F000849FC /* Main.storyboard */,
 				F9A800971EB4802F000849FC /* Assets.xcassets */,
 				F9A800991EB4802F000849FC /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9A800931EB4802F000849FC /* ViewController.m in Sources */,
+				F99EE7EF1EB4C56900C4790A /* HomeWork.m in Sources */,
 				F9A800901EB4802F000849FC /* AppDelegate.m in Sources */,
 				F9A8008D1EB4802F000849FC /* main.m in Sources */,
 			);
@@ -507,6 +513,7 @@
 				F9A800B71EB4802F000849FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9A800B81EB4802F000849FC /* Build configuration list for PBXNativeTarget "16-HomeWork-UIView-DrawingsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				F9A800BA1EB4802F000849FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9A800BB1EB4802F000849FC /* Build configuration list for PBXNativeTarget "16-HomeWork-UIView-DrawingsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				F9A800BD1EB4802F000849FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

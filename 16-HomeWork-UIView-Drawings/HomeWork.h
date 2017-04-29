@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeWork.h
 //  16-HomeWork-UIView-Drawings
 //
 //  Created by Slava on 29.04.17.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface ViewController : UIViewController
-
-@property(weak,nonatomic) IBOutlet UIView *rect;
+@interface HomeWork : UIView
 
 @end
-
